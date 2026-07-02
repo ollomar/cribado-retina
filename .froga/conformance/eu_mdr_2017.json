@@ -7,11 +7,23 @@
     "clauses": [
       {
         "clause_id": "mdr.gspr-3-risk-management",
-        "decision": "covered"
+        "title": "Sistema de gestión de riesgos (GSPR 3)",
+        "cycle_phase": "risk_treatment",
+        "decision": "covered",
+        "measures": [
+          "iso14971-risk-management-file"
+        ],
+        "basis": "Expediente de gestión de riesgos ISO 14971 vinculado; medidas evaluadas y aprobadas."
       },
       {
         "clause_id": "mdr.gspr-1-safety-performance",
-        "decision": "covered"
+        "title": "Seguridad y rendimiento (GSPR 1)",
+        "cycle_phase": "verification",
+        "decision": "covered",
+        "measures": [
+          "clinical-performance-eval"
+        ],
+        "basis": "Evaluación de rendimiento clínico sobre la cohorte de validación (sensibilidad ≥ umbral)."
       }
     ]
   }

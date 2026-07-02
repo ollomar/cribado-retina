@@ -7,11 +7,23 @@
     "clauses": [
       {
         "clause_id": "6.2.1",
-        "decision": "covered"
+        "title": "Propósito previsto documentado",
+        "cycle_phase": "context",
+        "decision": "covered",
+        "measures": [
+          "intended-purpose-declaration"
+        ],
+        "basis": "Declaración de propósito previsto sellada en froga.yaml (Art. 9 AI Act)."
       },
       {
         "clause_id": "6.3",
-        "decision": "covered"
+        "title": "Estimación del riesgo",
+        "cycle_phase": "risk_assessment",
+        "decision": "covered",
+        "measures": [
+          "risk-estimation-matrix"
+        ],
+        "basis": "Riesgos estimados con matriz severidad×probabilidad; residuales dentro del apetito."
       }
     ]
   }
